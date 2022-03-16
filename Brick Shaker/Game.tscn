@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Brick.tscn" type="PackedScene" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Bricks" type="Node2D" parent="."]
+position = Vector2( -50, 0 )
+
+[node name="Brick" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 248, 246 )
+
+[node name="Brick2" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 418, 246 )
+
+[node name="Brick3" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 588, 246 )
+
+[node name="Brick4" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 758, 246 )
+
+[node name="Brick5" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 928, 246 )
