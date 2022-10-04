@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/wait blip.wav-7e7d8ec37d63e4f7f824a06b7351a1c2.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/wait blip.wav"
+dest_files=[ "res://.import/wait blip.wav-7e7d8ec37d63e4f7f824a06b7351a1c2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
